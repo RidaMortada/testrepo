@@ -15,8 +15,7 @@ def bubble_sort(numbers):
     return numbers
 
 
-user_input = input("Enter numbers separated by spaces: ")
-numbers = [int(value) for value in user_input.split()]
+numbers = [5, 9, 12, 5, 2, 14, 3, 6, 11]
 
 sorted_numbers = bubble_sort(numbers)
 print("Sorted numbers:", sorted_numbers)
